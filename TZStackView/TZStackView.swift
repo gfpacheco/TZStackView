@@ -481,7 +481,7 @@ public class TZStackView: UIView {
             case .Trailing, .Bottom:
                 constraints += equalAttributes(views: views, attribute: .Bottom)
             case .FirstBaseline:
-                constraints += equalAttributes(views: views, attribute: .FirstBaseline)
+                constraints += []
             }
             
         case .Vertical:
